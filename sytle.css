@@ -13,7 +13,7 @@ body {
 }
 
 #Container {
-    border-radius: 35px;
+    border-radius: 20px;
     margin: 9em auto;
     width: 72em;
     height: 42em;
@@ -33,14 +33,14 @@ body {
 
 .box1 {
     background: linear-gradient(to left, rgb(5, 102,221), rgb(12,26,62));
-    border-radius: 35px 0 0 35px;
+    border-radius: 20px 0 0 20px;
 }
 
 .box2 {
     background-color: #FEFEFE;
-    border-radius: 0 35px 35px 0;
+    border-radius: 0 20px 20px 0;
 }
-
+/* Log in */
 .conteudo1,.conteudo2 {
     
     width: 28em;
@@ -61,7 +61,7 @@ h2 ,.subtitle {
     color: rgba(33, 33, 33, 0.5);
 }
 
-h1 {
+.title {
     font-family: 'Inconsolata';
     background: linear-gradient(to top, rgb(5, 102,221), rgb(12,26,62));
     background-clip: text;
@@ -78,7 +78,7 @@ h1 {
     text-align: center;
 }
 
-.logo {
+.logo2 {
     filter: drop-shadow(1px 1px 2px #121212);
     height: 60px;
 }
@@ -94,7 +94,7 @@ input {
     margin: 25px auto;
     display: block;
     border: 1px solid rgba(0, 0, 0,0.3);
-    width: 30em;
+    width: 25em;
     height: 3em;
     border-radius: 30px;
     padding: 0 15px;
@@ -103,7 +103,7 @@ input {
 }
 
 input:focus {
-    width: 31em;
+    width: 27em;
     border: 1px solid rgba(0, 0, 0,0.3);
     transition: 0.3s;
 }
@@ -111,7 +111,7 @@ input:focus {
 button {
     background-color: rgb(5, 102,221);
     background: linear-gradient(to top, rgb(5, 102,221), rgb(12,26,62));
-    width: 30em;
+    width: 25em;
     height: 3em;
     padding: 0 15px;
     margin: 15px auto;
@@ -165,4 +165,38 @@ p {
 .social-container a img {
     width: 70%;
     height: 70%;
+}
+
+/* Logo */
+.logo{
+    margin: 0 auto;
+    filter: none;
+    height: 60px;
+    display: block;
+}
+h1 {
+    font-family: 'Inconsolata';
+    user-select: none;
+    font-size: 54px;
+    text-align: center;
+    color: #ccc;
+}
+
+.title-content {
+    align-items: center;
+    display: block;
+    width: 28em;
+    height: 16em;
+    margin: 10em auto;
+}
+.title-content p {
+    margin: 2em 0;
+    color: #ccc;
+}
+.sing-in{
+    margin-top: 5em;
+    width: 50%;
+    background: none;
+    border: 1px solid #ccc;
+    outline: #ccc;
 }
