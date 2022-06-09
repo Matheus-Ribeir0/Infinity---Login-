@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Inter:wght@100&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff(5, 43, 137);
+    font-family: 'Inter';
+}
+
+#Container {
+    border-radius: 35px;
+    margin: 9em auto;
+    width: 72em;
+    height: 42em;
+    display: flex;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+                0 10px 10px rgba(0,0,0,0.22);
+                
+}
+
+.box1, .box2 {
+    
+    width: 40em;
+    height: 42em;
+    display: inline;
+    box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.2) ;
+}
+
+.box1 {
+    background: linear-gradient(to left, rgb(5, 102,221), rgb(12,26,62));
+    border-radius: 35px 0 0 35px;
+}
+
+.box2 {
+    background-color: #FEFEFE;
+    border-radius: 0 35px 35px 0;
+}
+
+.conteudo1,.conteudo2 {
+    
+    width: 28em;
+    height: 34em;
+    margin: 4em auto;
+}
+hr {
+    display: inline-block;
+    margin: 10px 15px 10px 15px;
+    margin-bottom: 3px;
+    width: 40%;
+}
+
+h2 ,.subtitle {
+    margin: 15px auto;
+    font-size: 19px;
+    text-align: center;
+    color: rgba(33, 33, 33, 0.5);
+}
+
+h1 {
+    font-family: 'Inconsolata';
+    background: linear-gradient(to top, rgb(5, 102,221), rgb(12,26,62));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    user-select: none;
+    font-size: 54px;
+    
+}
+#title {
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+}
+
+.logo {
+    filter: drop-shadow(1px 1px 2px #121212);
+    height: 60px;
+}
+
+.subtitle {
+    color: rgb(0, 0, 0);
+    padding: 0 25px;
+    font-size: 14px;
+}
+
+input {
+    box-sizing: border-box;
+    margin: 25px auto;
+    display: block;
+    border: 1px solid rgba(0, 0, 0,0.3);
+    width: 30em;
+    height: 3em;
+    border-radius: 30px;
+    padding: 0 15px;
+    outline: 0; 
+    transition: 0.3s;
+}
+
+input:focus {
+    width: 31em;
+    border: 1px solid rgba(0, 0, 0,0.3);
+    transition: 0.3s;
+}
+
+button {
+    background-color: rgb(5, 102,221);
+    background: linear-gradient(to top, rgb(5, 102,221), rgb(12,26,62));
+    width: 30em;
+    height: 3em;
+    padding: 0 15px;
+    margin: 15px auto;
+    display: block;
+    border-radius: 30px;
+    border: none;
+    color: #FEFEFE;
+    text-transform: uppercase;
+    transition:all 0.2s ease-in-out;
+    font-weight: bolder;
+    font-family: 'Inter';
+}
+
+button:hover, button:focus {
+    filter:drop-shadow(5px 3px 15px rgb(5, 102,221));
+    background: linear-gradient(to top, rgb(5, 102,221), rgb(12,26,62));
+    background: rgb(5, 102,221);
+    transition:all 0.2s ease-in-out;
+    outline: 0;
+}
+p {
+    margin-top: 3em;
+    text-align: center;
+}
+.social-container {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+
+
+.social-container a {
+    margin: 5px 25px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0.5px 1px 10px #ccc;
+    transition: 0.4s;
+}
+.social-container a:hover {
+    box-shadow: 0.5px 1px 10px rgb(5, 102,221);
+    transition: 0.4s;
+}
+.social-container a img {
+    width: 70%;
+    height: 70%;
+}
